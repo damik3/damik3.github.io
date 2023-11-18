@@ -1,6 +1,13 @@
 .main-image {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     filter: drop-shadow(1px 1px 5px hsl(0, 0%, 75%));
+}
+
+@media (min-width: 768px) {
+    .main-image {
+        height: 500px;
+        width: 500px;
+    }
 }

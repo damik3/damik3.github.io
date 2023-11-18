@@ -4,5 +4,11 @@
 }
 
 .custom-nav-link:hover {
-    filter: brightness(250%);
+    /*filter: brightness(250%);*/
+}
+
+@media (max-width: 576px) {
+    .h4 {
+        font-size: 1.125rem !important;
+    }
 }
