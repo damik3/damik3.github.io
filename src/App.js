@@ -37,19 +37,6 @@ function App() {
                 </div>
             </BrowserRouter>
 
-{/*            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/experiences" element={<Experiences />} />
-                <Route path="/experiences/global-engineering-academy" element={<GlobalEngineeringAcademy />} />
-                <Route path="/experiences/tech-institute" element={<TechInstitute />} />
-                <Route path="/experiences/mechrobotics-solutions" element={<MechroboticsSolutions />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/projects/goldenspan-engineering" element={<GoldenSpanEngineering />} />
-                <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
-                <Route path="/hobbies" element={<Hobbies />} />
-                <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
-            </Routes>*/}
         </>
     );
 }
