@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Home from "./MainContent/Home/Home";
 import Experiences from "./MainContent/Experiences/Experiences";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,6 +31,7 @@ function App() {
                             <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
                             <Route path="/hobbies" element={<Hobbies />} />
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
+                            <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
                     </Layout>
                 </div>
